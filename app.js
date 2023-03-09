@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cors(
-    {"origin": "https://sarkiweatherapp.vercel.app/"}
+    {"origin": "https://sarkiweatherapp.vercel.app"}
 ))
 const port = process.env.PORT || 3000;
 
